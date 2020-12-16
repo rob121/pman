@@ -65,7 +65,7 @@ func onReady() {
 
 
 	systray.SetIcon(icon.Data)
-	systray.SetTitle(fmt.Sprintf("Proxy Manager"))
+	//systray.SetTitle(fmt.Sprintf("Proxy Manager"))
 	//systray.SetTooltip(fmt.Sprintf("Connected to %s connect on %s",addrs,addr))
 
 	for _,d := range devices {
